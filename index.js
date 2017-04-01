@@ -1,8 +1,10 @@
 // v3.1.0
 //Docs at http://simpleweatherjs.com
 $(document).ready(function() {
+$('#updateLocation').click(function () {
+  var location = $("input").val();
   $.simpleWeather({
-    location: 'Austin, TX',
+    location: location,
     woeid: '',
     unit: 'f',
     success: function(weather) {
@@ -17,4 +19,6 @@ $(document).ready(function() {
       $("#weather").html('<p>'+error+'</p>');
     }
   });
+});
+
 });

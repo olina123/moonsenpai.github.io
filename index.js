@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
   });
   
-  var daysofWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var daysOfWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   var start = moment().day();
   var len = daysOfWeek.length;
 

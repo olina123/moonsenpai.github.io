@@ -24,9 +24,11 @@ $('#updateLocation').click(function () {
 });
 
 });
-DaysofWeek["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-daysOfWeek[moment().day()]
-start = moment().day();
+var daysofWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var start = moment().day();
+var len = daysOfWeek.length;
+
 for (var i = 0; i < 5; i++) {
-    console.log(daysOfWeek[start % daysOfWeek.length]);
+    $('#day' + i).text(daysOfWeek[start % len]);
     start++;
+}

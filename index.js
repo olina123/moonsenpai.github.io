@@ -18,7 +18,15 @@ $('#updateLocation').click(function () {
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
     }
+   
   });
+  
 });
 
 });
+DaysofWeek["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+daysOfWeek[moment().day()]
+start = moment().day();
+for (var i = 0; i < 5; i++) {
+    console.log(daysOfWeek[start % daysOfWeek.length]);
+    start++;

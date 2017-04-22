@@ -7,7 +7,7 @@ html{
 h1 {
   font-size: 112px;
   text-align: center;
-  font-family: 'Old Standard TT', cursive;
+  font-family: 'Old Standard TT', serif;
 }
 @font-face {
     font-family: 'weather';

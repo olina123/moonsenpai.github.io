@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT" rel=');
 
 html{
-  font-family: 'Old Standard TT', cursive;
+  font-family: 'Old Standard TT', serif;
 }
 
 h1 {
@@ -34,7 +34,7 @@ html {
 
 body {
   padding: 45px 0;
-  font-family: 'Old Standard TT', cursive;
+  font-family: 'Old Standard TT', serif;
 }
 
 #weather {

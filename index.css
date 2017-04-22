@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT" rel=');
 
 html{
-  font-family: 'Cookie', cursive;
+  font-family: 'Old Standard TT', cursive;
 }
 
 h1 {
   font-size: 112px;
   text-align: center;
-  font-family: 'Cookie', cursive;
+  font-family: 'Old Standard TT', cursive;
 }
 @font-face {
     font-family: 'weather';
@@ -34,7 +34,7 @@ html {
 
 body {
   padding: 45px 0;
-  font-family: 'Cookie', cursive;
+  font-family: 'Old Standard TT', cursive;
 }
 
 #weather {

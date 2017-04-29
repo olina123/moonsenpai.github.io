@@ -36,7 +36,6 @@ $(document).ready(function() {
 
  function myFunction() {
    temp = $('#weather h2').text()
-     alert("This is Stacey");
      var a = document.getElementById('Outfit 1');
    var b = document.getElementById('Outfit 2');
    var c = document.getElementById('Outfit 3');

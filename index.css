@@ -53,16 +53,6 @@ i {
   text-transform: none;
 }
 
-i {
-  color: white;
-  font-family: 'Old Standard TT';
-  font-size: 150px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.0;
-  text-transform: none;
-}
-
 .icon-0:before { content: ":"; }
 .icon-1:before { content: "p"; }
 .icon-2:before { content: "S"; }

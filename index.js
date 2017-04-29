@@ -1,5 +1,8 @@
 // v3.1.0
 //Docs at http://simpleweatherjs.com
+ $(window).load(function(){        
+   $('#myModal').modal('show');
+    }); 
 $(document).ready(function() {
   $('#updateLocation').click(function () {
     var location = $("input").val();

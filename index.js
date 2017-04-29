@@ -30,3 +30,11 @@ $(document).ready(function() {
     start++;
   }
 });
+temp = $('#weather h2').text()
+" 84°F"
+temp.match(/[0-9]+/)
+["84"]
+temp.match(/[0-9]+/)[0]
+"84"
+temp.match(/[0-9]+/)[0] > 60
+true

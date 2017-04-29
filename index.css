@@ -10,7 +10,7 @@ h1 {
   font-family: 'Old Standard TT', serif;
 }
 @font-face {
-    font-family: 'weather';
+    font-family: 'Old Standard TT';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
          url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),

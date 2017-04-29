@@ -30,11 +30,48 @@ $(document).ready(function() {
     start++;
   }
 });
-temp = $('#weather h2').text()
-" 84°F"
-temp.match(/[0-9]+/)
-["84"]
-temp.match(/[0-9]+/)[0]
-"84"
-temp.match(/[0-9]+/)[0] > 60
-true
+
+
+
+
+ function myFunction() {
+   temp = $('#weather h2').text()
+     alert("This is Stacey");
+     var a = document.getElementById('Outfit 1');
+   var b = document.getElementById('Outfit 2');
+   var c = document.getElementById('Outfit 3');
+   var d = document.getElementById('Outfit 4');
+   var e = document.getElementById('Outfit 5');
+   var f = document.getElementById('Outfit 6');
+   var g = document.getElementById('Outfit 7');
+   var h = document.getElementById('Outfit 8');
+   var i = document.getElementById('Outfit 9');
+   var j = document.getElementById('Outfit 10');
+     if (temp.match(/[0-9]+/)[0] > 60) {
+         a.style.display = 'block';
+       b.style.display = 'block';
+       c.style.display = 'block';
+       d.style.display = 'block';
+       e.style.display = 'block';
+       f.style.display = 'none';
+       g.style.display = 'none';
+       h.style.display = 'none';
+       i.style.display = 'none';
+       j.style.display = 'none';
+       
+       
+     } else {
+         a.style.display = 'none';
+        b.style.display = 'none';
+       c.style.display = 'none';
+       d.style.display = 'none';
+       e.style.display = 'none';
+       f.style.display = 'block';
+       g.style.display = 'block';
+       h.style.display = 'block';
+       i.style.display = 'block';
+       j.style.display = 'block';
+       
+       
+     }
+ }

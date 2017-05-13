@@ -1,9 +1,22 @@
 // v3.1.0
 //Docs at http://simpleweatherjs.com
 
-$(document).ready(function() {
+  var daysOfWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var start = moment().day();
+  var len = daysOfWeek.length;
+
+  for (var i = 0; i < 5; i++) {
+    $('#day' + i).text(daysOfWeek[start % len]);
+    start++;
+  }
+
+
+
+ function myFunction() {
+   temp = $('#weather h2').text();
+  
   $.simpleWeather({
-    location: 'Austin, TX',
+    location: temp,
     woeid: '',
     unit: 'f',
     success: function(weather) {
@@ -18,22 +31,7 @@ $(document).ready(function() {
       $("#weather").html('<p>'+error+'</p>');
     }
   });
-});
-
-  
-  var daysOfWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  var start = moment().day();
-  var len = daysOfWeek.length;
-
-  for (var i = 0; i < 5; i++) {
-    $('#day' + i).text(daysOfWeek[start % len]);
-    start++;
-  }
-
-
-
- function myFunction() {
-   temp = $('#weather h2').text()
+   
      var a = document.getElementById('Outfit 1');
    var b = document.getElementById('Outfit 2');
    var c = document.getElementById('Outfit 3');

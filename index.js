@@ -1,8 +1,9 @@
 // v3.1.0
 //Docs at http://simpleweatherjs.com
- $(window).load(function(){        
+$(window).load(function() {        
    $('#myModal').modal('show');
-    }); 
+});
+
 $(document).ready(function() {
   $.simpleWeather({
     location: 'Austin, TX',
@@ -31,8 +32,6 @@ $(document).ready(function() {
     $('#day' + i).text(daysOfWeek[start % len]);
     start++;
   }
-});
-
 
 
 

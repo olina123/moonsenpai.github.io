@@ -10,13 +10,13 @@
     start++;
   }
 
+$(document).ready(function () {
+  simpleWeather();
+});
 
-
- function myFunction() {
-   temp = $('#weather h2').text();
-  
+function simpleWeather(name) {
   $.simpleWeather({
-    location: temp,
+    location: name || 'Austin, TX',
     woeid: '',
     unit: 'f',
     success: function(weather) {
@@ -31,6 +31,12 @@
       $("#weather").html('<p>'+error+'</p>');
     }
   });
+}
+
+
+ function myFunction() {
+   temp = $('#weather h2').text();
+  simpleWeather(temp);
    
      var a = document.getElementById('Outfit 1');
    var b = document.getElementById('Outfit 2');

@@ -36,7 +36,7 @@ function simpleWeather(name) {
 
  function myFunction() {
    temp = $('#weather h2').text();
-  simpleWeather(temp);
+  simpleWeather($('#test').val());
    
      var a = document.getElementById('Outfit 1');
    var b = document.getElementById('Outfit 2');

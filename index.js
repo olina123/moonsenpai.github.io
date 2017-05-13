@@ -81,6 +81,10 @@ $(document).ready(function() {
        h.style.display = 'block';
        i.style.display = 'block';
        j.style.display = 'block';
+      k.style.display = 'block';
+      l.style.display = 'block';
+      m.style.display = 'block';
+      n.style.display = 'block';
        
        
      }

@@ -1,14 +1,6 @@
 // v3.1.0
 //Docs at http://simpleweatherjs.com
 
-  var daysOfWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  var start = moment().day();
-  var len = daysOfWeek.length;
-
-  for (var i = 0; i < 5; i++) {
-    $('#day' + i).text(daysOfWeek[start % len]);
-    start++;
-  }
 
 $(document).ready(function () {
   simpleWeather();
@@ -38,6 +30,14 @@ function simpleWeather(name) {
    temp = $('#weather h2').text();
   simpleWeather($('#test').val());
    
+  var daysOfWeek = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  var start = moment().day();
+  var len = daysOfWeek.length;
+
+  for (var i = 0; i < 5; i++) {
+    $('#day' + i).text(daysOfWeek[start % len]);
+    start++;
+  }
      var a = document.getElementById('Outfit 1');
    var b = document.getElementById('Outfit 2');
    var c = document.getElementById('Outfit 3');

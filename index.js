@@ -49,6 +49,10 @@ $(document).ready(function() {
    var h = document.getElementById('Outfit 8');
    var i = document.getElementById('Outfit 9');
    var j = document.getElementById('Outfit 10');
+   var k = document.getElementById('Outfit 11');
+   var l = document.getElementById('Outfit 12');
+   var m = document.getElementById('Outfit 13');
+   var n = document.getElementById('Outfit 14');
      if (temp.match(/[0-9]+/)[0] > 60) {
          a.style.display = 'block';
        b.style.display = 'block';
@@ -60,6 +64,10 @@ $(document).ready(function() {
        h.style.display = 'none';
        i.style.display = 'none';
        j.style.display = 'none';
+       k.style.display = 'none';
+       l.style.display = 'none';
+       m.style.display = 'none';
+       n.style.display = 'none';
        
        
      } else {

@@ -38,20 +38,20 @@ function simpleWeather(name) {
     $('#day' + i).text(daysOfWeek[start % len]);
     start++;
   }
-     var a = document.getElementById('Outfit 1');
-   var b = document.getElementById('Outfit 2');
-   var c = document.getElementById('Outfit 3');
-   var d = document.getElementById('Outfit 4');
-   var e = document.getElementById('Outfit 5');
-   var f = document.getElementById('Outfit 6');
-   var g = document.getElementById('Outfit 7');
-   var h = document.getElementById('Outfit 8');
-   var i = document.getElementById('Outfit 9');
-   var j = document.getElementById('Outfit 10');
-   var k = document.getElementById('Outfit 11');
-   var l = document.getElementById('Outfit 12');
-   var m = document.getElementById('Outfit 13');
-   var n = document.getElementById('Outfit 14');
+     var a = document.getElementById('Outfit1');
+   var b = document.getElementById('Outfit2');
+   var c = document.getElementById('Outfit3');
+   var d = document.getElementById('Outfit4');
+   var e = document.getElementById('Outfit5');
+   var f = document.getElementById('Outfit6');
+   var g = document.getElementById('Outfit7');
+   var h = document.getElementById('Outfit8');
+   var i = document.getElementById('Outfit9');
+   var j = document.getElementById('Outfit10');
+   var k = document.getElementById('Outfit11');
+   var l = document.getElementById('Outfit12');
+   var m = document.getElementById('Outfit13');
+   var n = document.getElementById('Outfit14');
      if (temp.match(/[0-9]+/)[0] > 60) {
          a.style.display = 'block';
        b.style.display = 'block';

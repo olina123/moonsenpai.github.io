@@ -46,7 +46,6 @@ function simpleWeather(name) {
    var f = document.getElementById('Outfit6');
    var g = document.getElementById('Outfit7');
    var h = document.getElementById('Outfit8');
-   var i = document.getElementById('Outfit9');
    var j = document.getElementById('Outfit10');
    var k = document.getElementById('Outfit11');
    var l = document.getElementById('Outfit12');
@@ -58,7 +57,6 @@ function simpleWeather(name) {
        c.style.display = 'block';
        d.style.display = 'block';
        e.style.display = 'block';
-       i.style.display = 'block';
        f.style.display = 'none';
        g.style.display = 'none';
        h.style.display = 'none';
@@ -75,7 +73,6 @@ function simpleWeather(name) {
          c.style.display = 'none';
          d.style.display = 'none';
          e.style.display = 'none';
-         i.style.display = 'none';
          f.style.display = 'block';
          g.style.display = 'block';
          h.style.display = 'block';

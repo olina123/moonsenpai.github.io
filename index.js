@@ -58,10 +58,10 @@ function simpleWeather(name) {
        c.style.display = 'block';
        d.style.display = 'block';
        e.style.display = 'block';
+       i.style.display = 'block';
        f.style.display = 'none';
        g.style.display = 'none';
        h.style.display = 'none';
-       i.style.display = 'none';
        j.style.display = 'none';
        k.style.display = 'none';
        l.style.display = 'none';
@@ -71,19 +71,19 @@ function simpleWeather(name) {
        
      } else {
          a.style.display = 'none';
-        b.style.display = 'none';
-       c.style.display = 'none';
-       d.style.display = 'none';
-       e.style.display = 'none';
-       f.style.display = 'block';
-       g.style.display = 'block';
-       h.style.display = 'block';
-       i.style.display = 'block';
-       j.style.display = 'block';
-      k.style.display = 'block';
-      l.style.display = 'block';
-      m.style.display = 'block';
-      n.style.display = 'block';
+         b.style.display = 'none';
+         c.style.display = 'none';
+         d.style.display = 'none';
+         e.style.display = 'none';
+         i.style.display = 'none';
+         f.style.display = 'block';
+         g.style.display = 'block';
+         h.style.display = 'block';
+         j.style.display = 'block';
+         k.style.display = 'block';
+         l.style.display = 'block';
+         m.style.display = 'block';
+         n.style.display = 'block';
        
        
      }
